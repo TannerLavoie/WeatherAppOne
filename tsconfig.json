@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "jsx": "react-jsx",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "noEmit": true,
+  }
+}

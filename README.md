@@ -1,14 +1,24 @@
-# GitHub Codespaces ♥️ React
+# WeatherApp
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+The project manager for your team has asked for some modifications to their current Weather Forecasting Application. Currently, when you search for a city, the api uses the first result directly. They would like instead to display the first 10 search results so the user can click on one option to display the weather for their selected option
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## Your Mission
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+- Add the functionality asked for above
+- Clean up as you see fit
+- Add tests to ensure code stability
+- Impress us with your CSS wizardry
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+## Things to consider
+
+- How best to handle state and props
+- Separating components and functions for easier testability
+- As much as this is a coding excercise, this is also a communication excercise. There is probably a lot more we can do on this file than 90 minutes allows, Talk out any changes you would make that we may not have time for.
+
 
 ## Available Scripts
+
+This project was bootstrapped for you with [Vite](https://vitejs.dev/).
 
 In the project directory, you can run:
 
