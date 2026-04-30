@@ -1,9 +1,9 @@
 # WeatherApp
 
-The project manager for your team has asked for some modifications to their current Weather Forecasting Application. Currently, when you search for a city, the search api fires on every keystroke and uses the first result directly to update the weather forecast. Instead, they would like the city-search API call to happen after the user is done typing and then display the first 10 search results for the user to click, updatinging the weather forcast. 
+- The project manager for your team has asked for some modifications to their current Weather Forecasting Application. Currently, when you search for a city, the search api fires on every keystroke and uses the first result directly to update the weather forecast. Instead, they would like the city-search API call to happen after the user is done typing and then have the UI display the first 10 search results for the user to click, updating the weather forecast. 
 
-Each city-search option should include the province (or equivalent) and country of the city.
-The PM would also like to see a title with the City name, province and country displayed
+- Each city-search option should include the province (or equivalent) and country of the city.
+- The PM would also like to see a title with the City name, province and country displayed
 
 ## Your Mission
 
