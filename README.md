@@ -1,20 +1,23 @@
 # WeatherApp
 
-The project manager for your team has asked for some modifications to their current Weather Forecasting Application. Currently, when you search for a city, the api uses the first result directly. They would like instead to display the first 10 search results so the user can click on one option to display the weather for their selected option
+The project manager for your team has asked for some modifications to their current Weather Forecasting Application. Currently, when you search for a city, the search api fires on every keystroke and uses the first result directly to update the weather forecast. Instead, they would like the city-search API call to happen after the user is done typing and then display the first 10 search results for the user to click, updatinging the weather forcast. 
+
+Each city-search option should include the province (or equivalent) and country of the city.
+The PM would also like to see a title with the City name, province and country displayed
 
 ## Your Mission
 
 - Add the functionality asked for above
-- Clean up as you see fit
-- Add tests to ensure code stability
-- Impress us with your CSS wizardry
+- Clean up the code as you see fit
 
 ## Things to consider
 
 - How best to handle state and props
-- Separating components and functions for easier testability
-- As much as this is a coding excercise, this is also a communication excercise. There is probably a lot more we can do on this file than 90 minutes allows, Talk out any changes you would make that we may not have time for.
-
+- App structure and organization
+- Improve API call handling and handle errors
+- Impress us with your CSS wizardry and attention to styling detail
+- Add meaningful tests to ensure code stability
+- There is probably a lot more we can do with this than our time allows. As much as this is a coding excercise, this is also a communication excercise. Focus first on solving what you would consider the biggest issues/tasks and talk out any changes you would make that you may not have time for.
 
 ## Available Scripts
 
