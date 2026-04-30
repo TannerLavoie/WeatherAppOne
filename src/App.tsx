@@ -76,8 +76,8 @@ export default function App() {
       }
     }
 
-    const getWeatherForcast = async () => {
-      const searchUrl: string = `https://geocoding-api.open-meteo.com/v1/search?count=10&name=${searchTerm || 'Calgary'}`
+    const getWeatherForcast = async (value: string) => {
+      const searchUrl: string = `https://geocoding-api.open-meteo.com/v1/search?count=10&name=${value || 'Calgary'}`
       const searchResponse: any = await fetch(searchUrl);
       const searchData: any = await searchResponse.json();
 
@@ -95,7 +95,7 @@ export default function App() {
     return (
       <div className={styles.container}>
         <div>Search For Your City:</div>
-        <div><input onChange={(event: any) => setSearchTerm(event.target.value)}/> <button onClick={getWeatherForcast}>Search</button></div>
+        <div><input onChange={(event: any) => getWeatherForcast(event.target.value)}/></div>
         <div style={{display: "flex"}}>
           {weatherForecast && weatherForecast.daily && weatherForecast.daily.time && weatherForecast.daily.time.map((date: string, i: number) => {
             const weatherCode = getWeatherCode(weatherForecast.daily.weather_code[i])
