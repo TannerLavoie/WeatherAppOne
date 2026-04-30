@@ -8,7 +8,6 @@ import {Thunder} from './assets/icons/thunder'
 
 export default function App() {
     const [weatherForecast, setWeatherForcast] = useState<any>()
-    const [searchTerm, setSearchTerm] = useState<string>()
 
     const getWeatherCode = (numberCode: number) => {
       if (numberCode <= 29) {
