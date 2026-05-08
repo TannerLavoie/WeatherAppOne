@@ -1,5 +1,13 @@
 # WeatherApp
 
+## To start
+
+Set up a codespace for this project on your own gihub account. Use the below image to find how to do that:
+
+<img width="1897" height="963" alt="Screenshot 2026-05-08 at 12 45 23 PM" src="https://github.com/user-attachments/assets/22982682-3d16-4f5b-8087-8036a3d85975" />
+
+## The Scenario
+
 - The project manager for your team has asked for some modifications to their current Weather Forecasting Application. Currently, when you search for a city, the search api fires on every keystroke and uses the first result directly to update the weather forecast. Instead, they would like the city-search API call to happen after the user is done typing and then have the UI display the first 10 search results for the user to click, updating the weather forecast. 
 
 - Each city-search option should include the province (or equivalent) and country of the city.
